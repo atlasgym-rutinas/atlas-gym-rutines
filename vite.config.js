@@ -9,7 +9,8 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      injectRegister: "auto",
+      // El registro lo hace src/main.jsx para recargar apenas hay una versión nueva.
+      injectRegister: false,
       includeAssets: ["icon.svg"],
       workbox: {
         // Guarda todo en el celular para que abra sin señal.
