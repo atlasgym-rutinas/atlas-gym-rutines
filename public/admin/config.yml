@@ -1,14 +1,17 @@
 # Panel de edición de rutinas (Decap CMS).
 # Cada cambio guardado acá se sube al repo y la app se publica sola en unos 2 minutos.
 
-# ─── PENDIENTE: reemplazar este bloque por el que genera DecapBridge al crear el sitio ───
+# Login con DecapBridge: el botón "Iniciar sesión" lleva a su página, donde se pone
+# el correo y la contraseña, y vuelve acá ya logueado. Los editores se invitan desde decapbridge.com.
 backend:
   name: git-gateway
   repo: atlasgym-rutinas/atlas-gym-rutines
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/REEMPLAZAR_SITE_ID
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/87631da0-0e1d-4a91-b1ed-e2b844829ecb/pkce
+  auth_token_endpoint: /sites/87631da0-0e1d-4a91-b1ed-e2b844829ecb/token
   gateway_url: https://gateway.decapbridge.com
-# ─────────────────────────────────────────────────────────────────────────────────────────
 
 locale: es
 # Solo para probar en la compu (npx decap-server); en la web publicada se ignora.
