@@ -1,0 +1,216 @@
+{
+  "title": "Hipertrofia nivel 3",
+  "subtitle": "Tracción, piernas, empuje y piernas",
+  "sections": [
+    "hombres"
+  ],
+  "level": "avanzado",
+  "order": 10,
+  "warmup": [
+    {
+      "title": "Entrada en calor",
+      "items": [
+        {
+          "n": "Trote",
+          "p": "5 min"
+        }
+      ]
+    },
+    {
+      "title": "Zona media en circuito",
+      "items": [
+        {
+          "n": "Cortitos",
+          "p": "4×10"
+        },
+        {
+          "n": "Oblicuos",
+          "p": "4×10"
+        },
+        {
+          "n": "Superman",
+          "p": "4×10"
+        }
+      ]
+    },
+    {
+      "title": "Manguito rotador, para tren superior",
+      "items": [
+        {
+          "n": "Vuelos laterales"
+        },
+        {
+          "n": "Vuelos frontales"
+        },
+        {
+          "n": "Vuelos posteriores"
+        },
+        {
+          "n": "Elevación de brazo con flexión de codo"
+        },
+        {
+          "n": "Apertura frontal a 90° con flexión de codo"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Tracción",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Remo T",
+              "p": "15/10/10/10",
+              "d": "Aumentando el peso."
+            },
+            {
+              "n": "Tracción al pecho en polea alta",
+              "p": "7×12",
+              "d": "Con 30 segundos de isometría."
+            },
+            {
+              "n": "Remo hammer",
+              "p": "×4",
+              "d": "10 repeticiones con un brazo mientras el otro hace isometría. Al terminar los dos brazos, 12 más con ambos."
+            },
+            {
+              "n": "Remo bajo",
+              "p": "12/10/8/6/4 ×3",
+              "d": "Pirámide descendente, aumentando el peso."
+            },
+            {
+              "n": "Remo al mentón agarre amplio + pull over en polea alta",
+              "p": "4×15 + 4×12"
+            },
+            {
+              "n": "Vuelos posteriores",
+              "p": "6×10"
+            },
+            {
+              "n": "Trapecio con barra",
+              "p": "4×10",
+              "d": "Aumentando el peso."
+            },
+            {
+              "n": "Curl 21 + martillo con mancuernas",
+              "p": "3×21 + 4×15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Peso muerto rumano",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Camilla de isquiotibiales",
+              "p": "6×15"
+            },
+            {
+              "n": "Peso muerto sumo",
+              "p": "5/10/15/20 ×4",
+              "d": "Pirámide ascendente."
+            },
+            {
+              "n": "Elevación de pelvis",
+              "p": "4× (10 + 10 s)",
+              "d": "10 repeticiones más 10 segundos de isometría."
+            },
+            {
+              "n": "Empuje de carro en suelo + estocadas en el lugar",
+              "p": "4×12 + 4×20 c/pierna"
+            },
+            {
+              "n": "Gemelos en prensa",
+              "p": "4×30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Empuje",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press plano con mancuernas",
+              "p": "15/10/10/10",
+              "d": "Aumentando el peso."
+            },
+            {
+              "n": "Press plano con barra + flexiones en el suelo",
+              "p": "4×15 + 4×20"
+            },
+            {
+              "n": "Apertura en banco inclinado + empuje cerrado",
+              "p": "4×15 + 4×15"
+            },
+            {
+              "n": "Cruce de poleas alta + polea baja",
+              "p": "7×12"
+            },
+            {
+              "n": "Press militar",
+              "p": "4×10",
+              "d": "Pirámide descendente."
+            },
+            {
+              "n": "Vuelos laterales + vuelos frontales",
+              "p": "7×12"
+            },
+            {
+              "n": "Press francés + extensión de tríceps en polea alta",
+              "p": "4×10 + 4×10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla con barra",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Sillón de cuádriceps + estocadas",
+              "p": "7×12 + pasadas"
+            },
+            {
+              "n": "Sentadilla con talones elevados",
+              "p": "4×30"
+            },
+            {
+              "n": "Subidas al cajón a una pierna",
+              "p": "4×20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Mantené esta planificación de 4 a 6 semanas, con una alimentación adecuada y aumentos progresivos de carga."
+  ],
+  "glossary": []
+}

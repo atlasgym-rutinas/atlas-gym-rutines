@@ -1,0 +1,200 @@
+{
+  "title": "Hipertrofia mes 4",
+  "subtitle": "Tracción, piernas, empuje y piernas",
+  "sections": [
+    "mujeres"
+  ],
+  "level": "avanzado",
+  "order": 8,
+  "warmup": [
+    {
+      "title": "Entrada en calor",
+      "items": [
+        {
+          "n": "Trote o salto con soga",
+          "p": "5 min"
+        }
+      ]
+    },
+    {
+      "title": "Zona media en circuito, 20 s de descanso entre series",
+      "items": [
+        {
+          "n": "Cortitos",
+          "p": "4×20"
+        },
+        {
+          "n": "Oblicuos (russian twist)",
+          "p": "4×20"
+        }
+      ]
+    },
+    {
+      "title": "Articular, tren superior",
+      "items": [
+        {
+          "n": "Vuelos laterales, frontales y posteriores, elevación con flexión de codo",
+          "p": "2×10 por ángulo",
+          "d": "Con mancuernas de 2 kg."
+        }
+      ]
+    },
+    {
+      "title": "Articular, tren inferior",
+      "items": [
+        {
+          "n": "Sentadilla libre, rotación de tobillos, rotación de cadera, estiramiento del psoas y rotación de rodilla",
+          "p": "2×10 por sentido",
+          "d": "Tobillos y rodillas hacia adentro y hacia afuera."
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Tracción",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Tracción al pecho en polea alta agarre prono",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Remo horizontal en máquina agarre supino",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelos posteriores en banco",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Remo al mentón en polea",
+              "p": "(10 + 5 s) ×3",
+              "d": "10 repeticiones más 5 segundos de isometría."
+            },
+            {
+              "n": "Curl de bíceps + martillo",
+              "p": "(12 + 10) ×3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla con mancuernas al hombro con banco de apoyo",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Estocadas con mancuernas",
+              "p": "4 pasadas"
+            },
+            {
+              "n": "Subidas al cajón a una pierna con mancuerna",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Sillón de cuádriceps + sentadilla goblet",
+              "p": "12/10/8/6/4 + 20",
+              "d": "Después de cada serie de sillón, 20 repeticiones de goblet."
+            },
+            {
+              "n": "Peso muerto sumo",
+              "p": "5×12"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "4×12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Empuje",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press plano con barra",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Apertura en banco inclinado con mancuernas",
+              "p": "4×12"
+            },
+            {
+              "n": "Extensión de tríceps en polea alta + fondos en paralelas",
+              "p": "(10 + 10) ×4"
+            },
+            {
+              "n": "Press militar en máquina",
+              "p": "(10 + 5 s) ×4",
+              "d": "10 repeticiones más 5 segundos de descanso."
+            },
+            {
+              "n": "Vuelos laterales + vuelos frontales",
+              "p": "5×12",
+              "d": "5 segundos de isometría al final de cada serie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Peso muerto rumano",
+              "p": "12/10/8/6/6/4"
+            },
+            {
+              "n": "Ham roller",
+              "p": "7×12"
+            },
+            {
+              "n": "Extensión de cadera en máquina",
+              "p": "15/10/10/10",
+              "d": "Más 5 segundos de isometría."
+            },
+            {
+              "n": "Aducción y abducción",
+              "p": "(10 + 10) ×4"
+            },
+            {
+              "n": "Patada de glúteo en polea baja",
+              "p": "×5",
+              "d": "10 repeticiones, bajás el peso, 10 repeticiones, bajás el peso, 10 repeticiones."
+            },
+            {
+              "n": "Elevación de pelvis",
+              "p": "(10 + 10 s + 10) ×4",
+              "d": "10 repeticiones, 10 segundos de isometría y 10 repeticiones más."
+            },
+            {
+              "n": "Gemelos en prensa + gemelos libres",
+              "p": "(20 + fallo) ×4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "glossary": []
+}

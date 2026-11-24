@@ -1,0 +1,208 @@
+{
+  "title": "Hipertrofia mes 3",
+  "subtitle": "Empuje, piernas, tracción y piernas",
+  "sections": [
+    "hombres"
+  ],
+  "level": "avanzado",
+  "order": 9,
+  "warmup": [
+    {
+      "title": "Entrada en calor",
+      "items": [
+        {
+          "n": "Bici o soga",
+          "p": "10 min"
+        }
+      ]
+    },
+    {
+      "title": "Zona media en circuito, con disco de 10 kg",
+      "items": [
+        {
+          "n": "Sit ups",
+          "p": "4×15"
+        },
+        {
+          "n": "Russian twist",
+          "p": "4×15"
+        },
+        {
+          "n": "Superman",
+          "p": "4×15"
+        },
+        {
+          "n": "Plancha",
+          "p": "2× al fallo",
+          "d": "Máximo tiempo."
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Empuje",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press plano con mancuernas",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Press plano con barra",
+              "p": "Drop set",
+              "d": "12 repeticiones más 3 bajadas de peso al fallo."
+            },
+            {
+              "n": "Press inclinado",
+              "p": "5/10/15/20 ×3",
+              "d": "Pirámide ascendente de máximo peso, bajando el peso en cada serie."
+            },
+            {
+              "n": "Press declinado empuje cerrado",
+              "p": "4×20"
+            },
+            {
+              "n": "Cruce de poleas + flexiones de brazos",
+              "p": "7×12 + 12"
+            },
+            {
+              "n": "Pull over",
+              "p": "3×10"
+            },
+            {
+              "n": "Vuelos frontales + laterales + press militar",
+              "p": "4×12 combinado"
+            },
+            {
+              "n": "Extensión en polea alta para tríceps + fondos en banco",
+              "p": "4×12 + fallo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Piernas: cuádriceps y gemelos",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Estocadas + sentadilla con talones elevados",
+              "p": "4 pasadas + 4×20",
+              "d": "Pasadas de 15 pasos, ida y vuelta."
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "7×12",
+              "d": "Entre 130 y 150 kg."
+            },
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "6×10",
+              "d": "Máximo peso."
+            },
+            {
+              "n": "Subidas al cajón con mancuernas",
+              "p": "4×10"
+            },
+            {
+              "n": "Gemelos en prensa 45° a una pierna",
+              "p": "4×20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Tracción",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Dominada + tracción al pecho en polea alta",
+              "p": "5 + 10",
+              "d": "10 repeticiones con el 50 % de la carga total del cuerpo."
+            },
+            {
+              "n": "Remo a caballo + remo hammer",
+              "p": "12/10/8/6",
+              "d": "En cada serie, 10 repeticiones de remo hammer con 10 kg por lado. 3 vueltas."
+            },
+            {
+              "n": "Remo a un brazo con mancuernas",
+              "p": "3×10",
+              "d": "Pesado."
+            },
+            {
+              "n": "Vuelos posteriores",
+              "p": "(10 + 15) ×4",
+              "d": "La primera con más peso y la segunda con menos, por ejemplo 10 kg y 5 kg."
+            },
+            {
+              "n": "Remo al mentón + trapecio en paralelas",
+              "p": "4×15 + fallo"
+            },
+            {
+              "n": "21 con barra + martillo",
+              "p": "(21 + 12) ×4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "Piernas: isquiotibiales y glúteos",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Peso muerto rumano",
+              "p": "12/10/8/6/4 y 5/10/15/20",
+              "d": "Pirámide completa: descendente y después ascendente."
+            },
+            {
+              "n": "Camilla de isquiotibiales",
+              "p": "7×12",
+              "d": "30 segundos de descanso."
+            },
+            {
+              "n": "Peso muerto sumo",
+              "p": "4×15",
+              "d": "Pesado, con 10 segundos de isometría."
+            },
+            {
+              "n": "Elevación de pelvis",
+              "p": "6×10",
+              "d": "Subiendo el peso en cada serie."
+            },
+            {
+              "n": "Abducción en polea baja",
+              "p": "4×12",
+              "d": "10 segundos de isometría al final."
+            },
+            {
+              "n": "Gemelos (sóleo) a una pierna",
+              "p": "6×15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "glossary": []
+}

@@ -1,0 +1,203 @@
+{
+  "title": "Hipertrofia mes 2",
+  "subtitle": "Piernas, pecho, espalda y hombros",
+  "sections": [
+    "hombres"
+  ],
+  "level": "principiante",
+  "order": 7,
+  "warmup": [],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta intenso",
+              "p": "2 min"
+            },
+            {
+              "n": "Crunch + plancha con rodillazos al costado",
+              "p": "4×20 + 4×20"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla frontal con mancuerna",
+              "p": "4×15"
+            },
+            {
+              "n": "Estocadas con mancuerna + sillón de cuádriceps",
+              "p": "4×10 c/pierna + 4×15"
+            },
+            {
+              "n": "Prensa",
+              "p": "4×20",
+              "d": "Con 30 segundos de isometría."
+            },
+            {
+              "n": "Peso muerto con mancuernas",
+              "p": "4×15/20"
+            },
+            {
+              "n": "Ham roller (carrito)",
+              "p": "4×12/15"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Bicicleta 10 min."
+    },
+    {
+      "name": "Día 2",
+      "focus": "Pecho y tríceps",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Bolitas + plancha lateral",
+              "p": "4×15 + 4×30 s"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press plano con barra + aperturas con mancuernas",
+              "p": "4×15 + 4×10"
+            },
+            {
+              "n": "Press inclinado con barra + press inclinado con mancuernas",
+              "p": "4×10 + 4×15"
+            },
+            {
+              "n": "Flexiones de brazos completas o de rodillas",
+              "p": "4×20"
+            },
+            {
+              "n": "Press francés con mancuernas",
+              "p": "4×12"
+            },
+            {
+              "n": "Fondos en paralelas",
+              "p": "4×15"
+            },
+            {
+              "n": "Tríceps en polea",
+              "p": "4×20"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Bicicleta 10 min."
+    },
+    {
+      "name": "Día 3",
+      "focus": "Espalda y bíceps",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Abdominales bicicleta + crunch",
+              "p": "4×40 + 4×20"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Remo con barra agarre prono + remo a caballo",
+              "p": "4×15 + 4×15"
+            },
+            {
+              "n": "Serrucho con mancuerna",
+              "p": "4×20"
+            },
+            {
+              "n": "Jalones al pecho + remo bajo en máquina",
+              "p": "4×10 + 4×15"
+            },
+            {
+              "n": "Scott con barra W",
+              "p": "4×15"
+            },
+            {
+              "n": "Bíceps alternado con mancuernas",
+              "p": "4×12"
+            },
+            {
+              "n": "Bíceps concentrado",
+              "p": "4×20"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Bicicleta 10 min."
+    },
+    {
+      "name": "Día 4",
+      "focus": "Hombros",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Crunch + plancha",
+              "p": "4×20 + 4×30 s"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press militar sentado con mancuernas",
+              "p": "4×15"
+            },
+            {
+              "n": "Remo al mentón con barra W + vuelos posteriores con mancuernas",
+              "p": "4×15 + 4×12"
+            },
+            {
+              "n": "Vuelos frontales + vuelos laterales",
+              "p": "3×20 + 3×20"
+            },
+            {
+              "n": "Press en máquina de hombros agarre cerrado",
+              "p": "4×20"
+            },
+            {
+              "n": "Trapecio con mancuernas",
+              "p": "4×15"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Bicicleta 10 min."
+    }
+  ],
+  "notes": [],
+  "glossary": []
+}

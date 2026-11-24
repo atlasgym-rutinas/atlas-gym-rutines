@@ -15,6 +15,9 @@ export default defineConfig({
       workbox: {
         // Guarda todo en el celular para que abra sin señal.
         globPatterns: ["**/*.{js,css,html,svg,woff2}"],
+        // El panel /admin no se guarda sin conexión ni lo atiende la app.
+        globIgnores: ["admin/**"],
+        navigateFallbackDenylist: [/\/admin\//],
       },
       manifest: {
         name: "Atlas Gym Rutinas",

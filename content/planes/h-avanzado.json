@@ -1,0 +1,202 @@
+{
+  "title": "Avanzado",
+  "subtitle": "Piernas, pecho, espalda y hombros",
+  "sections": [
+    "hombres"
+  ],
+  "level": "avanzado",
+  "order": 8,
+  "warmup": [],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Abdominales tijeras alternadas + tijeras cruzadas",
+              "p": "4×30 + 4×30"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla con barra",
+              "p": "5×15-12-10-8-8"
+            },
+            {
+              "n": "Sentadilla sumo + prensa 45°",
+              "p": "4×12 + 4×20-20-15-15"
+            },
+            {
+              "n": "Peso muerto",
+              "p": "4×10"
+            },
+            {
+              "n": "Estocadas caminando",
+              "p": "3 idas y 3 vueltas"
+            },
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "4×10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Pecho y tríceps",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Abdominales cortos",
+              "p": "Completar 200"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press plano con barra + aperturas con mancuerna",
+              "p": "5×15-10-10-8-8 + 5×10"
+            },
+            {
+              "n": "Press inclinado con barra",
+              "p": "4×12"
+            },
+            {
+              "n": "Flexiones de brazo",
+              "p": "Completar 100"
+            },
+            {
+              "n": "Tríceps trasnuca con mancuerna",
+              "p": "4×15"
+            },
+            {
+              "n": "Fondos",
+              "p": "5×20"
+            },
+            {
+              "n": "Extensiones en polea",
+              "p": "3×20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Espalda y bíceps",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Abdominales tijeras alternadas + tijeras cruzadas",
+              "p": "4×30 + 4×30"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Dominadas neutras",
+              "p": "4×fallo"
+            },
+            {
+              "n": "Remo australiano",
+              "p": "4×12"
+            },
+            {
+              "n": "Remo con barra",
+              "p": "4×15-10-10-8"
+            },
+            {
+              "n": "Jalones al pecho",
+              "p": "4×20-18-15-12"
+            },
+            {
+              "n": "Bíceps alternados",
+              "p": "4×12"
+            },
+            {
+              "n": "Bíceps con barra",
+              "p": "4×21"
+            },
+            {
+              "n": "Martillo en polea",
+              "p": "3×30-20-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "Hombros",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Abdominales cortos",
+              "p": "Completar 250"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Vuelos frontales",
+              "p": "4× (10 s isometría + 15)"
+            },
+            {
+              "n": "Press militar con barra",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "4×15-15-10-10"
+            },
+            {
+              "n": "Press en máquina + vuelos posteriores",
+              "p": "5×10 + 5×15"
+            },
+            {
+              "n": "Trapecio con mancuerna",
+              "p": "4×25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "glossary": []
+}

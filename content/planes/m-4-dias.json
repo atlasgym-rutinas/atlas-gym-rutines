@@ -1,0 +1,179 @@
+{
+  "title": "4 días",
+  "subtitle": "Cuerpo completo con opciones por ejercicio",
+  "sections": [
+    "mujeres"
+  ],
+  "level": "principiante",
+  "order": 5,
+  "warmup": [
+    {
+      "title": "Movilidad y cardio",
+      "items": [
+        {
+          "n": "Jumping jacks",
+          "p": "100"
+        },
+        {
+          "n": "Soga",
+          "p": "3×1 min"
+        },
+        {
+          "n": "Cortitos",
+          "p": "3×15"
+        },
+        {
+          "n": "Espinales",
+          "p": "3×15"
+        }
+      ]
+    },
+    {
+      "title": "Movilidad",
+      "items": [
+        {
+          "n": "90/90"
+        },
+        {
+          "n": "Sentadillas libres"
+        },
+        {
+          "n": "Rotaciones"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Cuerpo completo",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla con barra (o goblet)",
+              "p": "4×10"
+            },
+            {
+              "n": "Press banca (barra o mancuernas)",
+              "p": "4×8/10"
+            },
+            {
+              "n": "Peso muerto rumano (mancuernas o barra)",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Remo con barra o mancuernas",
+              "p": "3×10"
+            },
+            {
+              "n": "Plancha",
+              "p": "3×30/40 s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Cuerpo completo",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Prensa 45°",
+              "p": "4×12"
+            },
+            {
+              "n": "Press militar (mancuernas o barra)",
+              "p": "3×10"
+            },
+            {
+              "n": "Jalón al pecho o dominadas asistidas",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Peso muerto convencional (ligero)",
+              "p": "3×8/10"
+            },
+            {
+              "n": "Curl de bíceps + extensión de tríceps",
+              "p": "2 superseries ×12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Cuerpo completo",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla frontal (barra, kettlebell o goblet)",
+              "p": "4×8/10"
+            },
+            {
+              "n": "Fondos en banco o fondera",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Remo acostado o en polea",
+              "p": "3×10"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "3×12/15"
+            },
+            {
+              "n": "Abdominales (elevación de piernas + crunch)",
+              "p": "3×15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "Cuerpo completo",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Zancadas caminando o en el lugar",
+              "p": "3×10 c/pierna"
+            },
+            {
+              "n": "Press banca inclinado con mancuernas",
+              "p": "3×10"
+            },
+            {
+              "n": "Dominadas asistidas o jalón estrecho",
+              "p": "3×8/10"
+            },
+            {
+              "n": "Peso muerto rumano",
+              "p": "3×12"
+            },
+            {
+              "n": "Plancha lateral",
+              "p": "3×30 s c/lado"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Si completás las 3 o 4 series con el mismo peso y buena forma, subí entre 2,5 y 5 kg en el próximo entrenamiento.",
+    "Descansá 60 a 90 segundos entre series.",
+    "Enfocate primero en la técnica.",
+    "Pedí asistencia al coach a medida que subas los pesos."
+  ],
+  "glossary": []
+}

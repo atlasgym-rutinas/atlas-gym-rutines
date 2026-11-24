@@ -1,0 +1,192 @@
+{
+  "title": "5 días",
+  "subtitle": "Un grupo muscular por día",
+  "sections": [
+    "hombres"
+  ],
+  "level": "principiante",
+  "order": 6,
+  "warmup": [
+    {
+      "title": "Movilidad y cardio",
+      "items": [
+        {
+          "n": "Soga",
+          "p": "3×1 min"
+        },
+        {
+          "n": "Cortitos",
+          "p": "3×15"
+        },
+        {
+          "n": "Espinales",
+          "p": "3×15"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Espalda y bíceps",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Dominadas o dominadas horizontales",
+              "p": "4×5/15"
+            },
+            {
+              "n": "Remo bajo",
+              "p": "3× pirámide ascendente"
+            },
+            {
+              "n": "Jalones al pecho",
+              "p": "3×10/15"
+            },
+            {
+              "n": "Pullover",
+              "p": "4×8/12"
+            },
+            {
+              "n": "Curl de bíceps con mancuernas",
+              "p": "3×10/15"
+            },
+            {
+              "n": "Face pull",
+              "p": "3×8/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Cuádriceps y gemelos",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla con barra",
+              "p": "4×8/12"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "3×10/15"
+            },
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "4×15/20"
+            },
+            {
+              "n": "Gemelos en prensa",
+              "p": "3×10/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Pecho y tríceps",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press de banca con barra",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Press inclinado con mancuernas + flexiones de brazos",
+              "p": "3×10/20"
+            },
+            {
+              "n": "Fondos en paralelas",
+              "p": "3×5/15"
+            },
+            {
+              "n": "Extensión de tríceps",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "4×10/20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "Isquiotibiales y gemelos",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Peso muerto con barra",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Sentadilla sumo",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Isquios de pie",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Gemelos en prensa",
+              "p": "3×10/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 5",
+      "focus": "Hombros y brazos",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press militar con mancuernas",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "4×10/20"
+            },
+            {
+              "n": "Curl de bíceps con barra",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Extensión de tríceps",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Curl de bíceps martillo",
+              "p": "2×fallo"
+            },
+            {
+              "n": "Press francés",
+              "p": "2×fallo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Si completás las 3 o 4 series con el mismo peso y buena forma, subí entre 2,5 y 5 kg en el próximo entrenamiento.",
+    "Descansá 60 a 90 segundos entre series.",
+    "Enfocate primero en la técnica.",
+    "Pedí asistencia al coach a medida que subas los pesos."
+  ],
+  "glossary": []
+}

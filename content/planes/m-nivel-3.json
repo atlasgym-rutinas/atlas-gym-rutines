@@ -1,0 +1,165 @@
+{
+  "title": "Hipertrofia nivel 3",
+  "subtitle": "Piernas, tren superior y glúteos en 3 días",
+  "sections": [
+    "mujeres"
+  ],
+  "level": "avanzado",
+  "order": 7,
+  "warmup": [
+    {
+      "title": "Entrada en calor",
+      "items": [
+        {
+          "n": "Bici",
+          "p": "10 min"
+        }
+      ]
+    },
+    {
+      "title": "Zona media",
+      "items": [
+        {
+          "n": "Cortitos",
+          "p": "4×20"
+        },
+        {
+          "n": "Oblicuos (toco talones)",
+          "p": "4×20"
+        },
+        {
+          "n": "Superman",
+          "p": "4×20"
+        },
+        {
+          "n": "Plancha",
+          "p": "4×1,5 min"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla",
+              "p": "15/10/10/10",
+              "d": "Aumentando el peso en las últimas tres."
+            },
+            {
+              "n": "Estocadas",
+              "p": "4 pasadas"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "4×30"
+            },
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "12/10/8/6/4"
+            },
+            {
+              "n": "Sentadilla búlgara con peso",
+              "p": "3×10 c/pierna"
+            },
+            {
+              "n": "Subidas al cajón",
+              "p": "4×15 c/pierna"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    },
+    {
+      "name": "Día 2",
+      "focus": "Tren superior",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Empuje cerrado con disco",
+              "p": "4×12"
+            },
+            {
+              "n": "Tracción al pecho en polea alta",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Press militar en máquina",
+              "p": "12/10/8/6",
+              "d": "Aumentando el peso."
+            },
+            {
+              "n": "Flexiones de brazos",
+              "p": "4×10"
+            },
+            {
+              "n": "Remo bajo en máquina",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelo lateral + frontal",
+              "p": "4×10"
+            },
+            {
+              "n": "Vuelo posterior",
+              "p": "12/10/8/6"
+            },
+            {
+              "n": "Extensión en polea con soga + curl en doble polea",
+              "p": "5×12/12"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    },
+    {
+      "name": "Día 3",
+      "focus": "Glúteos e isquiotibiales",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Peso muerto rumano",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Camilla de isquiotibiales",
+              "p": "6×10"
+            },
+            {
+              "n": "Elevación de pelvis",
+              "p": "12/10/8/6"
+            },
+            {
+              "n": "Peso muerto sumo",
+              "p": "4×15"
+            },
+            {
+              "n": "Extensión de cadera en polea",
+              "p": "5×12"
+            },
+            {
+              "n": "Abducción con tobilleras",
+              "p": "4×20"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    }
+  ],
+  "notes": [
+    "Mantené esta planificación de 4 a 6 semanas, con una alimentación adecuada y aumentos progresivos de carga."
+  ],
+  "glossary": []
+}

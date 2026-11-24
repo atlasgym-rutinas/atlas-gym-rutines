@@ -1,0 +1,181 @@
+{
+  "title": "1er mes",
+  "subtitle": "Adaptación en circuito, 3 días",
+  "sections": [
+    "mujeres"
+  ],
+  "level": "principiante",
+  "order": 1,
+  "warmup": [],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Circuito completo",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Plancha",
+              "p": "3×30 s"
+            },
+            {
+              "n": "Oblicuos (toque de talones)",
+              "p": "3×20"
+            },
+            {
+              "n": "Superman (espinales)",
+              "p": "3×12/15"
+            },
+            {
+              "n": "Saltos en soga",
+              "p": "4 min"
+            }
+          ]
+        },
+        {
+          "title": "Circuito",
+          "items": [
+            {
+              "n": "Sentadilla en el lugar",
+              "p": "3×15/20",
+              "d": "Con o sin mancuernas."
+            },
+            {
+              "n": "Peso muerto sumo con mancuerna",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Vuelos laterales + vuelos frontales con mancuerna",
+              "p": "3×8/10"
+            },
+            {
+              "n": "Jalones al pecho",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Gemelos",
+              "p": "3×20"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    },
+    {
+      "name": "Día 2",
+      "focus": "Circuito completo",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Plancha",
+              "p": "3×30 s"
+            },
+            {
+              "n": "Oblicuos (toque de talones)",
+              "p": "3×20"
+            },
+            {
+              "n": "Superman (espinales)",
+              "p": "3×12/15"
+            }
+          ]
+        },
+        {
+          "title": "Circuito",
+          "items": [
+            {
+              "n": "Elevación de cadera con mancuerna",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Estocadas en el lugar",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Press militar con mancuernas",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Tríceps en polea",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Patada de glúteos en polea",
+              "p": "3×10/12"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    },
+    {
+      "name": "Día 3",
+      "focus": "Circuito y core",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Oblicuos (toque de talones)",
+              "p": "3×20"
+            },
+            {
+              "n": "Elevación de piernas",
+              "p": "3×12/15"
+            },
+            {
+              "n": "Abdominales cortitos",
+              "p": "3×12/15"
+            }
+          ]
+        },
+        {
+          "title": "Circuito",
+          "items": [
+            {
+              "n": "Sentadillas en el lugar",
+              "p": "3×15/20",
+              "d": "Con o sin peso."
+            },
+            {
+              "n": "Peso muerto con mancuernas",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Ham roller",
+              "p": "3×10/12"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "3×10"
+            }
+          ]
+        },
+        {
+          "title": "Core",
+          "items": [
+            {
+              "n": "Saltos en soga",
+              "p": "4 min"
+            },
+            {
+              "n": "Jumping jacks",
+              "p": "2× 30 s a 1 min"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    }
+  ],
+  "notes": [
+    "Calentá antes de cualquier ejercicio.",
+    "Hacé los ejercicios de forma gradual y suave.",
+    "Descansá 60 a 90 segundos entre series, así el cuerpo no se enfría.",
+    "Estirá después de entrenar."
+  ],
+  "glossary": []
+}

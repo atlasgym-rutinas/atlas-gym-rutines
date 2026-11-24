@@ -1,0 +1,139 @@
+{
+  "title": "Básico",
+  "subtitle": "Pecho, espalda, hombros y piernas en 3 días",
+  "sections": [
+    "hombres"
+  ],
+  "level": "principiante",
+  "order": 4,
+  "warmup": [
+    {
+      "title": "Todos los días",
+      "items": [
+        {
+          "n": "Bicicleta",
+          "p": "10 min"
+        },
+        {
+          "n": "Crunch en el piso",
+          "p": "4×20"
+        },
+        {
+          "n": "Plancha",
+          "p": "4×1 min"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Pecho y tríceps",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press de banca",
+              "p": "4×20-15-12-10"
+            },
+            {
+              "n": "Apertura con mancuerna",
+              "p": "4×10"
+            },
+            {
+              "n": "Pull over con mancuerna",
+              "p": "4×10"
+            },
+            {
+              "n": "Cruces en polea",
+              "p": "4×15"
+            },
+            {
+              "n": "Fondos en máquina",
+              "p": "4×15"
+            },
+            {
+              "n": "Extensiones en polea",
+              "p": "4×10"
+            },
+            {
+              "n": "Francés con mancuerna",
+              "p": "4×10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Espalda y bíceps",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Jalones al pecho",
+              "p": "4×10"
+            },
+            {
+              "n": "Remo a un brazo con mancuerna",
+              "p": "4×10"
+            },
+            {
+              "n": "Remo a caballo",
+              "p": "4×12"
+            },
+            {
+              "n": "Pull over con polea",
+              "p": "4×12"
+            },
+            {
+              "n": "Curl con barra",
+              "p": "4×12"
+            },
+            {
+              "n": "Martillo con mancuerna",
+              "p": "4×10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Hombros y piernas",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Vuelos laterales",
+              "p": "4×15"
+            },
+            {
+              "n": "Vuelos frontales",
+              "p": "4×15"
+            },
+            {
+              "n": "Press en máquina + remo al mentón",
+              "p": "4×15"
+            },
+            {
+              "n": "Sentadilla sumo + prensa",
+              "p": "4×15"
+            },
+            {
+              "n": "Estocadas + sillón de cuádriceps",
+              "p": "4×15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Realizá esta planificación de 4 a 6 semanas, con una alimentación adecuada y cargas progresivas."
+  ],
+  "glossary": []
+}

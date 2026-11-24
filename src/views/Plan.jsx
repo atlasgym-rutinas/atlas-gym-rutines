@@ -114,7 +114,7 @@ function Notas({ plan }) {
 
 export default function Plan() {
   const { seccion, nivel: nivelRaw, planId, dia: diaRaw } = useParams();
-  const plan = PLANES.find((p) => p.id === planId && p.sections.includes(seccion));
+  const plan = PLANES.find((p) => p.id === planId && p.sections?.includes(seccion));
   const n = parseInt(diaRaw, 10);
   const diaIdx = plan && n >= 1 && n <= plan.days.length ? n - 1 : 0;
 

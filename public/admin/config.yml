@@ -1,0 +1,109 @@
+# Panel de edición de rutinas (Decap CMS).
+# Cada cambio guardado acá se sube al repo y la app se publica sola en unos 2 minutos.
+
+# ─── PENDIENTE: reemplazar este bloque por el que genera DecapBridge al crear el sitio ───
+backend:
+  name: git-gateway
+  repo: atlasgym-rutinas/atlas-gym-rutines
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/REEMPLAZAR_SITE_ID
+  gateway_url: https://gateway.decapbridge.com
+# ─────────────────────────────────────────────────────────────────────────────────────────
+
+locale: es
+# Solo para probar en la compu (npx decap-server); en la web publicada se ignora.
+local_backend: true
+publish_mode: simple
+site_url: https://atlasgym-rutinas.github.io/atlas-gym-rutines/
+display_url: https://atlasgym-rutinas.github.io/atlas-gym-rutines/
+logo_url: https://atlasgym-rutinas.github.io/atlas-gym-rutines/icon.svg
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: planes
+    label: Planes
+    label_singular: Plan
+    description: Cada plan aparece en la app dentro de su sección y nivel. Los cambios se ven en la app unos 2 minutos después de guardar.
+    folder: content/planes
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: title
+    slug: "{{slug}}"
+    summary: "{{title}} ({{level}})"
+    sortable_fields: [title, order, level]
+    view_groups:
+      - { label: Nivel, field: level }
+    fields:
+      - { label: Nombre del plan, name: title, widget: string }
+      - { label: Descripción corta, name: subtitle, widget: string, hint: "Aparece debajo del nombre en la lista. Ej.: Pecho, espalda, hombros y piernas en 3 días" }
+      - label: Sección
+        name: sections
+        widget: select
+        multiple: true
+        min: 1
+        options:
+          - { label: Hombres, value: hombres }
+          - { label: Mujeres, value: mujeres }
+        hint: Podés elegir las dos si el plan sirve para ambos.
+      - label: Nivel
+        name: level
+        widget: select
+        options:
+          - { label: Principiante, value: principiante }
+          - { label: Avanzado, value: avanzado }
+      - { label: Orden en la lista, name: order, widget: number, value_type: int, default: 50, min: 1, hint: "Los números más bajos aparecen primero dentro de su nivel." }
+
+      - label: Entrada en calor (se repite al principio de todos los días)
+        name: warmup
+        widget: list
+        required: false
+        collapsed: true
+        summary: "{{fields.title}}"
+        fields: &bloque
+          - { label: Título del bloque, name: title, widget: string, hint: "Ej.: Entrada en calor, Ejercicios, Zona media" }
+          - label: Ejercicios
+            name: items
+            widget: list
+            collapsed: true
+            summary: "{{fields.n}} — {{fields.p}}"
+            fields:
+              - { label: Ejercicio, name: n, widget: string }
+              - { label: Series y repeticiones, name: p, widget: string, required: false, hint: "Ej.: 4×10, 15/10/10/10, 10 min" }
+              - { label: Detalle, name: d, widget: string, required: false, hint: "Opcional. Ej.: alternando piernas" }
+
+      - label: Días
+        name: days
+        widget: list
+        min: 1
+        collapsed: true
+        summary: "{{fields.name}}: {{fields.focus}}"
+        fields:
+          - { label: Nombre del día, name: name, widget: string, hint: "Ej.: Día 1" }
+          - { label: Qué se trabaja, name: focus, widget: string, hint: "Ej.: Pecho y tríceps" }
+          - label: Bloques
+            name: blocks
+            widget: list
+            collapsed: true
+            summary: "{{fields.title}}"
+            fields: *bloque
+          - { label: Al terminar, name: cooldown, widget: string, required: false, hint: "Opcional. Ej.: 10 min de cinta y estiramientos" }
+
+      - label: Cómo progresar
+        name: notes
+        widget: list
+        required: false
+        collapsed: true
+        field: { label: Consejo, name: nota, widget: text }
+
+      - label: Siglas
+        name: glossary
+        widget: list
+        required: false
+        collapsed: true
+        summary: "{{fields.term}}"
+        fields:
+          - { label: Sigla, name: term, widget: string }
+          - { label: Qué significa, name: text, widget: text }

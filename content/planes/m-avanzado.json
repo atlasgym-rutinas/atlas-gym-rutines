@@ -1,0 +1,201 @@
+{
+  "title": "Avanzado",
+  "subtitle": "Piernas, tren superior, glúteos y full body",
+  "sections": [
+    "mujeres"
+  ],
+  "level": "avanzado",
+  "order": 6,
+  "warmup": [],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Crunch en el piso + plancha",
+              "p": "4×20 + 4×1 min"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla con barra",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Prensa 45° + estocadas caminando",
+              "p": "4×20 + 4 idas y 4 vueltas"
+            },
+            {
+              "n": "Hack",
+              "p": "4×20-15-12-10"
+            },
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "4×15"
+            },
+            {
+              "n": "Sentadilla frontal con mancuerna",
+              "p": "4×10"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    },
+    {
+      "name": "Día 2",
+      "focus": "Tren superior",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Crunch en el piso",
+              "p": "4×20"
+            },
+            {
+              "n": "Abdominales cortos",
+              "p": "Completar 100"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Flexiones de brazo + fondos",
+              "p": "4×12 + 4×15"
+            },
+            {
+              "n": "Press inclinado con barra",
+              "p": "4×10"
+            },
+            {
+              "n": "Dominadas",
+              "p": "Completar 4×3"
+            },
+            {
+              "n": "Vuelos frontales alternados",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "4×12"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    },
+    {
+      "name": "Día 3",
+      "focus": "Glúteos",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Crunch en el piso + plancha",
+              "p": "4×20 + 4×1 min"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Hip thrust",
+              "p": "4×20"
+            },
+            {
+              "n": "Estocadas búlgaras",
+              "p": "4×12"
+            },
+            {
+              "n": "Ham roller",
+              "p": "4×15"
+            },
+            {
+              "n": "Patada de glúteos con tobilleras",
+              "p": "4×20"
+            },
+            {
+              "n": "Gemelos",
+              "p": "4×30"
+            }
+          ]
+        }
+      ],
+      "cooldown": "Estiramientos."
+    },
+    {
+      "name": "Día 4",
+      "focus": "Full body",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Bicicleta",
+              "p": "5 min"
+            },
+            {
+              "n": "Crunch en el piso",
+              "p": "4×20"
+            },
+            {
+              "n": "Abdominales cortos",
+              "p": "Completar 100"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press banco plano con barra + flexiones de brazo",
+              "p": "4×10 + 4×10"
+            },
+            {
+              "n": "Subidas al cajón",
+              "p": "4×12"
+            },
+            {
+              "n": "Remo con barra + jalones al pecho",
+              "p": "4×12 + 4×12"
+            },
+            {
+              "n": "Peso muerto con mancuernas",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelos frontales + vuelos laterales",
+              "p": "4×10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "glossary": []
+}

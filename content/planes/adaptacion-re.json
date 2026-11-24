@@ -1,0 +1,149 @@
+{
+  "title": "Adaptación R.E.",
+  "subtitle": "Primeras semanas con repeticiones estables",
+  "sections": [
+    "hombres",
+    "mujeres"
+  ],
+  "level": "principiante",
+  "order": 2,
+  "warmup": [
+    {
+      "title": "Entrada en calor",
+      "items": [
+        {
+          "n": "Trote o salto con soga",
+          "p": "5 min"
+        }
+      ]
+    },
+    {
+      "title": "Zona media",
+      "items": [
+        {
+          "n": "Crunch (cortitos)"
+        },
+        {
+          "n": "Oblicuos (toco talones)"
+        },
+        {
+          "n": "Superman (espinales)"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Repeticiones estables",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press de empuje cerrado en banco plano con disco",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Sentadilla libre",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Press militar",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Elevación de pelvis en máquina",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Tracción al pecho en polea alta",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Tracción en polea baja para isquios",
+              "p": "15/10/10/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Repeticiones estables",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Estocadas en el lugar",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Apertura en banco plano",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Peso muerto rumano con mancuernas",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Remo unilateral con mancuernas",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Gemelos en prensa hack",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "15/10/10/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "4 × 12",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Peso muerto sumo",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelos frontales",
+              "p": "4×12"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "4×12"
+            },
+            {
+              "n": "Remo en polea baja agarre estrecho",
+              "p": "4×12"
+            },
+            {
+              "n": "Abducción en polea baja",
+              "p": "4×12"
+            },
+            {
+              "n": "Press de empuje cerrado en banco inclinado",
+              "p": "4×12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "glossary": [
+    {
+      "term": "R.E.",
+      "text": "Repeticiones estables: una serie de 15 repeticiones con peso intermedio a bajo y después 3 series de 10 con un peso mayor (15/10/10/10)."
+    }
+  ]
+}

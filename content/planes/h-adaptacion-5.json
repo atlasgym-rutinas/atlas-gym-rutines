@@ -1,0 +1,222 @@
+{
+  "title": "Adaptación 5 días",
+  "subtitle": "Primeras semanas, repeticiones estables y descendentes",
+  "sections": [
+    "hombres"
+  ],
+  "level": "principiante",
+  "order": 3,
+  "warmup": [
+    {
+      "title": "Entrada en calor",
+      "items": [
+        {
+          "n": "Trote o salto con soga",
+          "p": "5 min"
+        }
+      ]
+    },
+    {
+      "title": "Zona media",
+      "items": [
+        {
+          "n": "Crunch (cortitos)"
+        },
+        {
+          "n": "Oblicuos (toco talones)"
+        },
+        {
+          "n": "Superman (espinales)"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Repeticiones estables",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press de empuje cerrado en banco plano con disco",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Sentadilla libre",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Press militar en máquina",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Tracción al pecho en polea alta",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Estocadas caminando",
+              "p": "15/10/10/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Repeticiones estables",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Estocadas en el lugar",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Apertura en banco plano",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Peso muerto rumano con mancuernas",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Remo unilateral con mancuernas",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Gemelos en prensa hack",
+              "p": "15/10/10/10"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "15/10/10/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "4 × 12",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Peso muerto sumo",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelos frontales",
+              "p": "4×12"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "4×12"
+            },
+            {
+              "n": "Remo en polea baja agarre estrecho",
+              "p": "4×12"
+            },
+            {
+              "n": "Curl de bíceps con mancuerna",
+              "p": "4×12"
+            },
+            {
+              "n": "Press de empuje cerrado en banco inclinado",
+              "p": "4×12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "3 × 12",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press militar con mancuernas",
+              "p": "3×12"
+            },
+            {
+              "n": "Prensa hack",
+              "p": "3×12"
+            },
+            {
+              "n": "Press plano con barra",
+              "p": "3×12"
+            },
+            {
+              "n": "Remo bajo con barra",
+              "p": "3×12"
+            },
+            {
+              "n": "Prensa vertical",
+              "p": "3×12"
+            },
+            {
+              "n": "Gemelos",
+              "p": "3×12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 5",
+      "focus": "Repeticiones descendentes",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "12/10/8"
+            },
+            {
+              "n": "Pullover",
+              "p": "12/10/8"
+            },
+            {
+              "n": "Peso muerto rumano con barra",
+              "p": "12/10/8"
+            },
+            {
+              "n": "Australian pull ups",
+              "p": "12/10/8"
+            },
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "12/10/8"
+            },
+            {
+              "n": "Vuelos posteriores en banco inclinado",
+              "p": "12/10/8"
+            },
+            {
+              "n": "Gemelos",
+              "p": "12/10/8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "glossary": [
+    {
+      "term": "R.E.",
+      "text": "Repeticiones estables: una serie de 15 repeticiones con peso intermedio a bajo y después 3 series de 10 con un peso mayor (15/10/10/10)."
+    },
+    {
+      "term": "R.D.",
+      "text": "Pirámide o repeticiones descendentes: empezás con 12 repeticiones con peso intermedio y, a medida que bajan las repeticiones, subís el peso (12/10/8). Descanso de 90 segundos entre series."
+    }
+  ]
+}

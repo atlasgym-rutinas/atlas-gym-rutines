@@ -1,0 +1,137 @@
+{
+  "title": "Adaptación",
+  "subtitle": "Primeras semanas, cuerpo completo",
+  "sections": [
+    "hombres"
+  ],
+  "level": "principiante",
+  "order": 1,
+  "warmup": [
+    {
+      "title": "Movilidad y cardio",
+      "items": [
+        {
+          "n": "Jumping jacks",
+          "p": "100"
+        },
+        {
+          "n": "Soga",
+          "p": "3×1 min"
+        },
+        {
+          "n": "Cortitos",
+          "p": "3×15"
+        },
+        {
+          "n": "Espinales",
+          "p": "3×15"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Cuerpo completo",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press de banca con mancuernas",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Sentadilla libre",
+              "p": "4×10/20"
+            },
+            {
+              "n": "Jalones al pecho",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "3×10/20"
+            },
+            {
+              "n": "Camilla de isquios",
+              "p": "3×10/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Cuerpo completo",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Remo T",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Fondos en paralelas",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Peso muerto rumano con mancuernas",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Press militar",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Gemelos en prensa",
+              "p": "3×fallo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Cuerpo completo",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla sumo",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Vuelos frontales",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Dominada horizontal",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Camilla de isquiotibiales",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Curl de bíceps",
+              "p": "3×10/15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Si completás las 3 o 4 series con el mismo peso y buena forma, subí entre 2,5 y 5 kg en el próximo entrenamiento.",
+    "Descansá 60 a 90 segundos entre series.",
+    "Enfocate primero en la técnica."
+  ],
+  "glossary": []
+}

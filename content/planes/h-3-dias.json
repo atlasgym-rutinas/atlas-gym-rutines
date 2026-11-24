@@ -1,0 +1,142 @@
+{
+  "title": "3 días",
+  "subtitle": "Empuje, tracción y piernas",
+  "sections": [
+    "hombres"
+  ],
+  "level": "principiante",
+  "order": 5,
+  "warmup": [
+    {
+      "title": "Movilidad y cardio",
+      "items": [
+        {
+          "n": "Jumping jacks",
+          "p": "100"
+        },
+        {
+          "n": "Soga",
+          "p": "3×1 min"
+        },
+        {
+          "n": "Cortitos",
+          "p": "3×15"
+        },
+        {
+          "n": "Espinales",
+          "p": "3×15"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Empuje",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press de banca con barra",
+              "p": "4×8/12"
+            },
+            {
+              "n": "Press inclinado con mancuernas",
+              "p": "3×10/15"
+            },
+            {
+              "n": "Cruce de poleas",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Fondos en paralelas",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Extensión de tríceps",
+              "p": "2×fallo"
+            },
+            {
+              "n": "Press militar",
+              "p": "3×10/15"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "3×15/20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Tracción",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Dominadas o jalones al pecho",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Remo T",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Pullover en polea",
+              "p": "3×10/15"
+            },
+            {
+              "n": "Face pull",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Curl de bíceps en banco inclinado",
+              "p": "3×10/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadilla con barra",
+              "p": "4×10/15"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "3×8/12"
+            },
+            {
+              "n": "Peso muerto rumano con mancuernas",
+              "p": "3×10/15"
+            },
+            {
+              "n": "Sillón de cuádriceps + camilla de isquios",
+              "p": "3×15/20"
+            },
+            {
+              "n": "Gemelos en prensa",
+              "p": "3×10/20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Si completás las 3 o 4 series con el mismo peso y buena forma, subí entre 2,5 y 5 kg en el próximo entrenamiento.",
+    "Descansá 60 a 90 segundos entre series.",
+    "Enfocate primero en la técnica.",
+    "Pedí asistencia al coach a medida que subas los pesos."
+  ],
+  "glossary": []
+}

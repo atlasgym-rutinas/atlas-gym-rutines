@@ -1,0 +1,233 @@
+{
+  "title": "3er mes",
+  "subtitle": "Piernas, pecho, glúteos y espalda",
+  "sections": [
+    "mujeres"
+  ],
+  "level": "principiante",
+  "order": 4,
+  "warmup": [],
+  "days": [
+    {
+      "name": "Día 1",
+      "focus": "Piernas",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Cortitos",
+              "p": "4×15"
+            },
+            {
+              "n": "Elevación de piernas",
+              "p": "3×20"
+            },
+            {
+              "n": "Toque de talones",
+              "p": "3×20"
+            },
+            {
+              "n": "Superman (espinales)",
+              "p": "3×20"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Sentadillas con barra",
+              "p": "4×15"
+            },
+            {
+              "n": "Estocadas caminando",
+              "p": "3 vueltas"
+            },
+            {
+              "n": "Sillón de cuádriceps",
+              "p": "4×15/20"
+            },
+            {
+              "n": "Peso muerto",
+              "p": "4×15/20"
+            },
+            {
+              "n": "Prensa 45°",
+              "p": "4×20"
+            },
+            {
+              "n": "Gemelos",
+              "p": "3×20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 2",
+      "focus": "Pecho y hombros",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Saltos en soga",
+              "p": "5 min"
+            },
+            {
+              "n": "Jumping jacks",
+              "p": "60"
+            },
+            {
+              "n": "Cortitos",
+              "p": "60"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Press de banca con barra",
+              "p": "4×12"
+            },
+            {
+              "n": "Dominadas negativas",
+              "p": "3×12"
+            },
+            {
+              "n": "Vuelos laterales",
+              "p": "3×15"
+            },
+            {
+              "n": "Extensiones de tríceps en polea",
+              "p": "4×20"
+            },
+            {
+              "n": "Curl de bíceps con barra",
+              "p": "4×15"
+            },
+            {
+              "n": "Fondos en cajón",
+              "p": "4×15/20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 3",
+      "focus": "Glúteos e isquios",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Toque de talones",
+              "p": "3×20"
+            },
+            {
+              "n": "Cortitos",
+              "p": "60"
+            },
+            {
+              "n": "Superman (espinales)",
+              "p": "3×15"
+            },
+            {
+              "n": "Elevación de piernas",
+              "p": "3×20"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Estocada búlgara",
+              "p": "4×15"
+            },
+            {
+              "n": "Peso muerto a una pierna",
+              "p": "4×20"
+            },
+            {
+              "n": "Camilla de isquios",
+              "p": "10/12/15/20"
+            },
+            {
+              "n": "Elevación de cadera con barra",
+              "p": "4×12/15"
+            },
+            {
+              "n": "Ham roller",
+              "p": "4×20"
+            },
+            {
+              "n": "Patada de glúteos en polea",
+              "p": "4×20-15-12-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Día 4",
+      "focus": "Espalda y bíceps",
+      "blocks": [
+        {
+          "title": "Calentamiento",
+          "items": [
+            {
+              "n": "Saltos en soga",
+              "p": "5 min"
+            },
+            {
+              "n": "Jumping jacks",
+              "p": "60"
+            },
+            {
+              "n": "Cortitos",
+              "p": "3×20"
+            }
+          ]
+        },
+        {
+          "title": "Ejercicios",
+          "items": [
+            {
+              "n": "Remo con barra supino",
+              "p": "4×12"
+            },
+            {
+              "n": "Jalón al pecho",
+              "p": "4×12"
+            },
+            {
+              "n": "Martillo con mancuernas",
+              "p": "4×12"
+            },
+            {
+              "n": "Curl de bíceps con barra",
+              "p": "4×12"
+            },
+            {
+              "n": "Vuelos laterales + frontales",
+              "p": "3×15 c/u"
+            },
+            {
+              "n": "Fondos",
+              "p": "4×15/20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Estirá después de entrenar.",
+    "Agregá peso de forma progresiva, cuidando la técnica."
+  ],
+  "glossary": []
+}
