@@ -2,10 +2,35 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
+// En local, Vite responde /admin y /admin/ con la app (index.html raíz).
+// Esto los manda al panel, igual que hace GitHub Pages.
+const abrirAdmin = (req, res, next) => {
+  const [ruta, query] = req.url.split("?");
+  // Sin barra final, Decap buscaría config.yml en la raíz: redirigir como GitHub Pages.
+  if (/\/admin$/.test(ruta)) {
+    res.statusCode = 301;
+    res.setHeader("Location", `${ruta}/${query ? `?${query}` : ""}`);
+    return res.end();
+  }
+  if (/\/admin\/$/.test(ruta)) req.url = `${ruta}index.html${query ? `?${query}` : ""}`;
+  next();
+};
+const panelAdmin = {
+  name: "panel-admin",
+  // Llaves sin return: si el hook devuelve una función, Vite la toma como "post hook".
+  configureServer(server) {
+    server.middlewares.use(abrirAdmin);
+  },
+  configurePreviewServer(server) {
+    server.middlewares.use(abrirAdmin);
+  },
+};
+
 export default defineConfig({
   // Rutas relativas: la app funciona servida desde cualquier carpeta (por ejemplo GitHub Pages).
   base: "./",
   plugins: [
+    panelAdmin,
     react(),
     VitePWA({
       registerType: "autoUpdate",

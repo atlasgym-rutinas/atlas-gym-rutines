@@ -6,6 +6,22 @@
   <meta name="robots" content="noindex" />
   <title>Editar rutinas Atlas Gym</title>
   <link rel="icon" href="../icon.svg" type="image/svg+xml" />
+  <!--
+    Decap usa crypto.randomUUID, que el navegador solo da en https o localhost.
+    Al probar desde el celular (http://192.168.x.x:5173/admin/) no existe y el panel no arranca:
+    acá se arma con crypto.getRandomValues, que sí está siempre. Publicado en https no se usa.
+  -->
+  <script>
+    if (window.crypto && !crypto.randomUUID) {
+      crypto.randomUUID = () =>
+        "10000000-1000-4000-8000-100000000000".replace(/[018]/g, (c) =>
+          (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16)
+        );
+    }
+  </script>
+  <!-- Diseño propio de la pantalla de login (ver login.css y login.js). -->
+  <link rel="stylesheet" href="login.css" />
+  <script src="login.js" defer></script>
 </head>
 <body>
   <!-- Panel de edición: lee config.yml de esta misma carpeta. -->

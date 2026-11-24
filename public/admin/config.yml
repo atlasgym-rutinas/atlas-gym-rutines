@@ -16,7 +16,8 @@ local_backend: true
 publish_mode: simple
 site_url: https://atlasgym-rutinas.github.io/atlas-gym-rutines/
 display_url: https://atlasgym-rutinas.github.io/atlas-gym-rutines/
-logo_url: https://atlasgym-rutinas.github.io/atlas-gym-rutines/icon.svg
+# Relativo a /admin/: funciona igual en la compu y publicado.
+logo_url: logo.png
 media_folder: public/uploads
 public_folder: /uploads
 
