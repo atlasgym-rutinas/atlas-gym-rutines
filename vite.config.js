@@ -42,7 +42,9 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,svg,woff2}"],
         // El panel /admin no se guarda sin conexión ni lo atiende la app.
         globIgnores: ["admin/**"],
-        navigateFallbackDenylist: [/\/admin\//],
+        // Con y sin barra final: si no, "/admin" lo responde el service worker con la home
+        // y nunca llega a GitHub Pages, que es quien redirige a "/admin/".
+        navigateFallbackDenylist: [/\/admin(\/|$)/],
       },
       manifest: {
         name: "Atlas Gym Rutinas",
