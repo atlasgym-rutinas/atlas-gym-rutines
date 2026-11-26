@@ -111,3 +111,37 @@ collections:
         fields:
           - { label: Sigla, name: term, widget: string }
           - { label: Qué significa, name: text, widget: text }
+
+  - name: ejercicios
+    label: Ejercicios
+    label_singular: Ejercicio
+    description: >-
+      Fotos de cada ejercicio. En la app aparecen al tocar el ejercicio en la hoja del día,
+      en todos los planes donde esté, sin cargarla plan por plan.
+    folder: content/ejercicios
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: title
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [title]
+    # Las fotos de ejercicios van en su propia carpeta.
+    media_folder: /public/uploads/ejercicios
+    public_folder: /uploads/ejercicios
+    fields:
+      - { label: Nombre, name: title, widget: string, hint: "Como aparece en los planes. Ej.: Sentadilla libre" }
+      - label: Fotos
+        name: images
+        widget: list
+        required: false
+        max: 2
+        hint: "Una foto alcanza. Si el movimiento cambia mucho, subí dos: cómo arranca y cómo termina. Mejor horizontales y livianas (menos de 300 KB), porque se abren con los datos del celular."
+        field: { label: Foto, name: image, widget: image, choose_url: false }
+      - label: Otros nombres en los planes
+        name: aliases
+        widget: list
+        required: false
+        hint: "Si un plan escribe este ejercicio de otra forma, agregala acá para que también muestre la foto. Ej.: Cortitos, Crunch (cortitos). No importan mayúsculas ni tildes."
+        field: { label: Nombre, name: alias, widget: string }

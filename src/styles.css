@@ -39,6 +39,7 @@
   --tinta-suave: #5c5652;
   --rojo: #e3242b;      /* el marco de la marca */
   --rojo-hoja: #b81c22; /* rojo legible sobre mármol */
+  --paspartu: #e0ddd7;  /* fondo de las fotos sobre la hoja */
 
   --display: "Graduate", "Rockwell", serif;
   --texto: "Archivo", system-ui, sans-serif;
@@ -383,14 +384,85 @@ button, a, [role="button"], [role="checkbox"] {
   margin-bottom: 4px;
 }
 
+.hoja-ayuda {
+  margin-top: 12px;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  color: var(--tinta-suave);
+}
+
+.bloque li { border-bottom: 1px solid var(--veta); }
+.bloque li:last-child { border-bottom: 0; }
+
 .ejercicio {
   display: flex;
   align-items: flex-start;
   gap: 16px;
+  width: 100%;
   padding: 12px 0;
-  border-bottom: 1px solid var(--veta);
+  text-align: left;
 }
-.bloque li:last-child .ejercicio { border-bottom: 0; }
+/* En una hoja con fotos, las filas sin foto guardan el lugar de la flecha
+   para que la columna de series quede alineada. */
+.con-fotos .ejercicio::after,
+.ejercicio.con-foto .icon {
+  content: "";
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 1px 0 0 -6px;
+}
+.ejercicio.con-foto { transition: opacity 120ms; }
+.ejercicio.con-foto::after { content: none; }
+.ejercicio.con-foto:active { opacity: 0.6; }
+.ejercicio.con-foto .icon {
+  color: var(--rojo-hoja);
+  transition: transform 200ms var(--ease-out);
+}
+.ejercicio.con-foto[aria-expanded="true"] .icon { transform: rotate(180deg); }
+
+/* Panel de fotos: se despliega debajo de la fila. Cerrar es más rápido que abrir. */
+.ej-fotos {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 180ms var(--ease-out);
+}
+.ej-fotos[data-abierto] {
+  grid-template-rows: 1fr;
+  transition-duration: 260ms;
+}
+.ej-fotos-dentro {
+  min-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 140ms var(--ease-out);
+}
+.ej-fotos[data-abierto] .ej-fotos-dentro {
+  opacity: 1;
+  transition-duration: 220ms;
+}
+.ej-figura { margin: 0 0 14px; }
+.ej-figura + .ej-figura { margin-top: 22px; }
+.ej-figura figcaption {
+  margin-bottom: 6px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--tinta-suave);
+}
+.ej-imgs {
+  display: grid;
+  gap: 6px;
+}
+.ej-imgs[data-cantidad="2"] { grid-template-columns: 1fr 1fr; }
+.ej-imgs img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: var(--paspartu);
+  border-radius: 12px;
+}
+.ej-imgs[data-cantidad="2"] img { aspect-ratio: 3 / 4; }
 
 .ej-texto { flex: 1; min-width: 0; }
 .ej-nombre {
@@ -476,6 +548,7 @@ button, a, [role="button"], [role="checkbox"] {
   .nivel:not([aria-current="page"]):hover { color: var(--hueso); }
   .plan-link:hover .plan-titulo { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
   .dia-tab:not([aria-current="page"]):hover { color: var(--hueso); }
+  .ejercicio.con-foto:hover .ej-nombre { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

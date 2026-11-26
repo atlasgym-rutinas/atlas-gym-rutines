@@ -1,9 +1,9 @@
-import { useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Barra from "../components/Barra.jsx";
 import Icon from "../components/Icon.jsx";
 import NoEncontrada from "./NoEncontrada.jsx";
-import { NIVELES, PLANES, SECCIONES, bloquesDelDia, diasTexto } from "../lib.js";
+import { NIVELES, PLANES, SECCIONES, bloquesDelDia, diasTexto, fotosDe } from "../lib.js";
 
 function DiasTabs({ plan, diaIdx, base }) {
   const nav = useRef(null);
@@ -41,30 +41,94 @@ function DiasTabs({ plan, diaIdx, base }) {
   );
 }
 
-function Hoja({ plan, diaIdx }) {
-  const dia = plan.days[diaIdx];
-  const bloques = bloquesDelDia(plan, diaIdx);
+function altDeFoto(nombre, k, total) {
+  if (total < 2) return nombre;
+  return `${nombre}, ${k === 0 ? "posición inicial" : "posición final"}`;
+}
+
+function Ejercicio({ it, fotos, id }) {
+  const [abierto, setAbierto] = useState(false);
+  // Las fotos se piden recién la primera vez que se abre la fila.
+  const [cargar, setCargar] = useState(false);
+
+  const fila = (
+    <>
+      <span className="ej-texto">
+        <span className="ej-nombre">{it.n}</span>
+        {it.d && <span className="ej-detalle">{it.d}</span>}
+      </span>
+      {it.p && <span className="ej-series">{it.p}</span>}
+    </>
+  );
+
+  if (fotos.length === 0) {
+    return (
+      <li>
+        <div className="ejercicio">{fila}</div>
+      </li>
+    );
+  }
 
   return (
-    <article className={`hoja${diaIdx > 0 ? " empieza-medio" : ""}`} aria-labelledby="hoja-foco">
+    <li>
+      <button
+        type="button"
+        className="ejercicio con-foto"
+        aria-expanded={abierto}
+        aria-controls={id}
+        onClick={() => {
+          setCargar(true);
+          setAbierto((a) => !a);
+        }}
+      >
+        {fila}
+        <Icon name="down" />
+      </button>
+      <div className="ej-fotos" id={id} data-abierto={abierto || undefined} inert={!abierto}>
+        <div className="ej-fotos-dentro">
+          {cargar &&
+            fotos.map((f) => (
+              <figure className="ej-figura" key={f.nombre}>
+                {fotos.length > 1 && <figcaption>{f.nombre}</figcaption>}
+                <div className="ej-imgs" data-cantidad={f.fotos.length}>
+                  {f.fotos.map((src, k) => (
+                    <img key={src} src={src} alt={altDeFoto(f.nombre, k, f.fotos.length)} decoding="async" />
+                  ))}
+                </div>
+              </figure>
+            ))}
+        </div>
+      </div>
+    </li>
+  );
+}
+
+function Hoja({ plan, diaIdx }) {
+  const dia = plan.days[diaIdx];
+  const bloques = bloquesDelDia(plan, diaIdx).map((bl) => ({
+    ...bl,
+    items: bl.items.map((it) => ({ it, fotos: fotosDe(it.n) })),
+  }));
+  const conFotos = bloques.some((bl) => bl.items.some((x) => x.fotos.length > 0));
+
+  return (
+    <article
+      className={`hoja${diaIdx > 0 ? " empieza-medio" : ""}${conFotos ? " con-fotos" : ""}`}
+      aria-labelledby="hoja-foco"
+    >
       <div className="hoja-cabeza">
         <h2 className="hoja-foco" id="hoja-foco">
           {dia.focus}
         </h2>
       </div>
+      {conFotos && <p className="hoja-ayuda">Tocá los ejercicios con flecha para ver cómo se hacen.</p>}
 
       {bloques.map((bl) => (
         <section className="bloque" key={bl.key}>
           <h3 className="bloque-titulo">{bl.title}</h3>
           <ul>
-            {bl.items.map((it, j) => (
-              <li className="ejercicio" key={j}>
-                <span className="ej-texto">
-                  <span className="ej-nombre">{it.n}</span>
-                  {it.d && <span className="ej-detalle">{it.d}</span>}
-                </span>
-                {it.p && <span className="ej-series">{it.p}</span>}
-              </li>
+            {bl.items.map(({ it, fotos }, j) => (
+              <Ejercicio key={j} it={it} fotos={fotos} id={`fotos-${bl.key}-${j}`} />
             ))}
           </ul>
         </section>
@@ -135,7 +199,8 @@ export default function Plan() {
         {NIVELES[plan.level].nombre}, {diasTexto(plan.days.length)}. {plan.subtitle}.
       </p>
       <DiasTabs plan={plan} diaIdx={diaIdx} base={base} />
-      <Hoja plan={plan} diaIdx={diaIdx} />
+      {/* key: al cambiar de día las filas abiertas se cierran */}
+      <Hoja key={diaIdx} plan={plan} diaIdx={diaIdx} />
       <Notas plan={plan} />
     </>
   );

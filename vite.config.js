@@ -41,10 +41,19 @@ export default defineConfig({
         // Guarda todo en el celular para que abra sin señal.
         globPatterns: ["**/*.{js,css,html,svg,woff2}"],
         // El panel /admin no se guarda sin conexión ni lo atiende la app.
-        globIgnores: ["admin/**"],
+        globIgnores: ["admin/**", "uploads/**"],
         // Con y sin barra final: si no, "/admin" lo responde el service worker con la home
         // y nunca llega a GitHub Pages, que es quien redirige a "/admin/".
         navigateFallbackDenylist: [/\/admin(\/|$)/],
+        // Las fotos de ejercicios no se bajan todas al instalar: cada una queda guardada
+        // la primera vez que se abre, y después se ve sin señal.
+        runtimeCaching: [
+          {
+            urlPattern: /\/uploads\//,
+            handler: "StaleWhileRevalidate",
+            options: { cacheName: "fotos-ejercicios", expiration: { maxEntries: 300 } },
+          },
+        ],
       },
       manifest: {
         name: "Atlas Gym Rutinas",
